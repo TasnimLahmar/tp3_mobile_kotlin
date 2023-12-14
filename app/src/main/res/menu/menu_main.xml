@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="eniso.ia2.tp3tasnim_la.MainActivity">
+    <item android:title="Appels">
+        <menu>
+            <item
+                android:id="@+id/action_call"
+                android:icon="@android:drawable/ic_menu_call"
+                android:title="Appel normal" />
+            <item
+                android:id="@+id/call_urgent"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="Appel d'urgence" />
+        </menu>
+    </item>
+    <item android:title="SMS">
+        <menu>
+            <item
+                android:id="@+id/sms"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="SMS normal" />
+            <item
+                android:id="@+id/sms_urgent"
+                android:icon="@android:drawable/ic_menu_send"
+
+                android:title="SMS d'urgence" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_camera"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Caméra" />
+    <item
+        android:title="Quitter"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        />
+</menu>
